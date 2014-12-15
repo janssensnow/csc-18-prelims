@@ -5,5 +5,5 @@ class Tallier(object):
     def add_score(self, scores):
         self.scores[score.team_score] = team.points
 
-    def get_score(self, scores):
+    def get_score(self, score)
         return self.scores.get(team.points)
