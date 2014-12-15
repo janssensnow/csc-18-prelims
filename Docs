@@ -1,0 +1,16 @@
+Vision:
+    The basketball score tallying system records score to both competing teams in a basket ball league.
+Mission:
+    Create a simple tallying system
+Objectives:
+    * Within 2 hours the system will be usable
+Principles:
+    Simple user friendly system
+Feature List:
+    * Records the score given to a team
+    * Can tally from points to points
+Acceptance Criteria
+    * Records the score given from a team
+        - A score is recorded every time a player scores.
+    * Can tally from points to points
+        - The score will automatically tally every score input.
