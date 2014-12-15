@@ -5,4 +5,11 @@
          basketball game and update these scores when a player from
          a team scores
 
-         Scenario:
+         Scenario: Get initial score
+            Given I create team:
+                | Team Name | Score |
+                | Team 1    | 0     |
+
+             And I visit the homepage
+             When I enter the Team Name "Team 1"
+             Then I see the Score "0"
