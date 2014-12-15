@@ -6,5 +6,8 @@ class TestScore(unittest.TestCase):
         score = Score()
 
 class TestScore(unittest.TestCase):
-    def test_score_object_returns_team_score(self)
+    def test_score_object_returns_team_score(self):
         score = Score()
+
+if __name__ == '__main__':
+    unittest.main()

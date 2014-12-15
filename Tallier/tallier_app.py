@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request
 from tallier.score import Score
+from tallier.tallier import Tallier
 
 app = Flask(__name__)
-SCORE = Score ()
+TALLIER = Tallier ()
 
 @app.route('/')
 def hello_world():
